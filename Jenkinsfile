@@ -12,7 +12,7 @@ stage('SonarQube Analysis') {
        -D sonar.login=admin \
       -D sonar.password=irfan123 \
       -D sonar.projectBaseDir=/var/lib/jenkins/workspace/sonarqube/ \
-        -D sonar.projectKey=my-app1 \
+        -D sonar.projectKey=sonarqube \
         -D sonar.sourceEncoding=UTF-8 \
         -D sonar.language=java \
         -D sonar.sources=my-app/src/main \
