@@ -15,8 +15,8 @@ stage('SonarQube Analysis') {
         -D sonar.projectKey=sonarqube \
         -D sonar.sourceEncoding=UTF-8 \
         -D sonar.language=java \
-        -D sonar.sources=my-app/src/main \
-        -D sonar.tests=my-app/src/test \
+        -D sonar.sources=sonarqube/src/main \
+        -D sonar.tests=sonarqube/src/test \
         -D sonar.host.url=http://sonarqube.devoptech.my.id/"""
         }
 }
